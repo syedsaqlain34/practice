@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	 <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" 
+          content="IE=edge">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>
+        Registeration Form
+    </title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+			<h1>Registeration Form</h1>
+
+	<form id="form">
+
+		<div class="form-control">
+			<label for="name" id="label-name">First Name</label>
+			<input type="text" id="name" placeholder="First Name" required>
+			</div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <input type="email" id="email" 
+                   placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+        	<label for="age" id="label-age">
+        		Age
+        	</label>
+
+        	<input type="text" id="age" placeholder="Enter Your Age">
+        </div>
+
+
+         <div class="form-control">
+         	<h4>Select Languages 
+         		<small>(which type of language do you know?)</small>
+         	</h4>
+           
+			<label for="inp-1">
+			 <input type="checkbox"  name="languages">HTML
+			</label>
+
+			 <label for="inp-2">
+			 <input type="checkbox"  name="languages">CSS
+			</label>
+			 <label>
+			 <input type="checkbox"  name="languages" >Java
+			</label>
+			 </div>
+
+
+             <div class="form-control">
+             	<h4>what is your country name?</h4>
+            
+			 <label for="recommed-1">
+			 	<input type="radio" name="option" value="recommed-1">Pakistan</input>
+			 </label>
+					 <label>
+			 	<input type="radio" name="option" value="recommed-2">India</input>
+			 </label>
+			  </div>
+
+			 <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" 
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <button type="submit" value="submit">
+            Submit
+        </button>
+
+	</form>
+</body>
